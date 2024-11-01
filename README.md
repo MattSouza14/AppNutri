@@ -1,8 +1,14 @@
-# Projeto de Extensão: Desenvolvimento de Aplicativo Móvel
+# Projeto de Extensão: Desenvolvimento de Aplicativo Móvel para Nutricionista
 
 ## Apresentação do Projeto
 
-Este projeto de extensão tem como objetivo desenvolver um aplicativo móvel utilizando as linguagens Java ou Dart/Flutter. O aplicativo será capaz de resolver uma carência ou problema específico identificado em uma empresa parceira. O projeto visa a integração dos alunos com o mercado, proporcionando-lhes a oportunidade de aplicar na prática os conceitos aprendidos na disciplina, além de promover o desenvolvimento de habilidades essenciais para o mercado de trabalho, como o trabalho em equipe e a capacidade de resolução de problemas.
+Este projeto de extensão tem como objetivo desenvolver um aplicativo móvel utilizando as linguagens Java ou Dart/Flutter. O aplicativo será capaz de resolver uma carência ou problema específico identificado em uma empresa parceira, com foco no atendimento nutricional. O projeto visa a integração dos alunos com o mercado, proporcionando-lhes a oportunidade de aplicar na prática os conceitos aprendidos na disciplina, além de promover o desenvolvimento de habilidades essenciais para o mercado de trabalho, como o trabalho em equipe e a capacidade de resolução de problemas.
+
+## Funcionalidades
+
+- **Tela Inicial de Login**: Permite que clientes/pacientes façam login no aplicativo.
+- **Agendamento de Consultas**: O cliente/paciente pode agendar uma consulta com o nutricionista.
+- **Automonitoramento de Rotina**: Após a consulta, o cliente/paciente deverá preencher um formulário de automonitoramento de rotina, permitindo ao nutricionista acompanhar o progresso do paciente.
 
 ## Objetivos Principais
 
