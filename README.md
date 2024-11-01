@@ -45,3 +45,9 @@ Este projeto de extensão tem como objetivo desenvolver um aplicativo móvel uti
 
 ## Estrutura do Projeto
 
+
+
+
+
+Licença
+Este projeto está licenciado sob a MIT License.
