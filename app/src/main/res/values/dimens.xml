@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dimens.xml para telas padrão -->
+    <dimen name="padding_padrao">16dp</dimen>
+
+    <!-- dimens.xml para telas grandes -->
+    <dimen name="texto_padrao">32dp</dimen>
+</resources>

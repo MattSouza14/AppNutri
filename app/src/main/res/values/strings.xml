@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">AppNutri</string>
+    <string name="app_name">Nutri</string>
+    <string name="app_logo_description">Logo do aplicativo</string>
+    <string name="Texto_de_login">Login</string>
+    <string name="Texto_de_senha">Senha</string>
+    <string name="Texto_de_botao_entrar">Login</string>
+    <string name="Texto_de_botao_cadastrar">Cadastrar</string>
+    <string name="Texto_de_botao_esqueci_senha">Esqueci a Senha</string>
+    <string name="Texto_de_logo1">Login</string>
 </resources>
