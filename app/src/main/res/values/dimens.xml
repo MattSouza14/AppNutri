@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- dimens.xml para telas padrão -->
-    <dimen name="padding_padrao">16dp</dimen>
+    <!-- Definições de tamanhos gerais -->
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <!--  Teste -->
 
-    <!-- dimens.xml para telas grandes -->
-    <dimen name="texto_padrao">32dp</dimen>
+    <!-- Definições de tamanho de texto -->
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
 </resources>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <!--  Teste -->
+
+    <color name="black">#070707</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="fundo">#82BDED</color>
+    <color name="cores_botoes">#3C4A53</color>
 </resources>

@@ -33,7 +33,7 @@
             app:layout_constraintVertical_bias="0.325">
 
             <TextView
-                android:id="@+id/logo_cadastro"
+                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="48dp"
@@ -69,7 +69,6 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <EditText
-                android:id="@id/cpf"
                 android:layout_width="336dp"
                 android:layout_height="65dp"
                 android:layout_marginStart="10dp"
@@ -90,7 +89,7 @@
             </EditText>
 
             <EditText
-                android:id="@+id/telefone"
+                android:id="@+id/cpf"
                 android:layout_width="336dp"
                 android:layout_height="65dp"
                 android:layout_marginStart="10dp"
@@ -113,7 +112,7 @@
                 android:layout_width="336dp"
                 android:layout_height="65dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="20dp"
                 android:autofillHints="Email"
                 android:background="@drawable/border_rounded"
                 android:hint="@string/Email"
@@ -146,12 +145,12 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <EditText
-                android:id="@+id/data"
+                android:id="@+id/editTextDate"
                 android:layout_width="340dp"
                 android:layout_height="68dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="30dp"
                 android:autofillHints="DD/MM/YY"
                 android:background="@drawable/border_rounded"
                 android:ems="10"
@@ -162,9 +161,31 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.492"
                 app:layout_constraintStart_toStartOf="parent" />
+            <EditText
+                android:id="@+id/CRM"
+                android:layout_width="336dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="25dp"
+                android:autofillHints="CRM:"
+                android:background="@drawable/border_rounded"
+                android:hint="@string/CRM"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#070707"
+                app:layout_constraintBottom_toTopOf="@+id/email"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
             <RadioButton
-                android:id="@+id/masc"
+                android:id="@+id/radioButton"
                 android:layout_width="117dp"
                 android:layout_height="49dp"
                 android:layout_marginStart="10dp"
@@ -179,7 +200,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <RadioButton
-                android:id="@+id/femi"
+                android:id="@+id/radioButton2"
                 android:layout_width="118dp"
                 android:layout_height="51dp"
                 android:layout_marginStart="220dp"
@@ -195,7 +216,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
-                android:id="@+id/cadastro"
+                android:id="@+id/button1"
                 android:layout_width="175dp"
                 android:layout_height="66dp"
                 android:layout_marginStart="84dp"

@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Lado esquerdo retangular (cor azul) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00BFFF" /> <!-- Cor azul -->
+            <corners android:radius="30dp" />
+        </shape>
+    </item>
+
+    <!-- Lado direito oval (cor azul clara) -->
+    <item android:left="90dp" android:width="480dp" android:top="-50dp" android:bottom="-50dp">
+        <shape android:shape="oval">
+            <solid android:color="#C0E0FF"/>
+                <corners android:radius="300dp"/> <!-- Cor azul claro -->
+        </shape>
+    </item>
+
+</layer-list>

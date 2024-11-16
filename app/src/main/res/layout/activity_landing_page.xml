@@ -1,133 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    tools:context=".landingPage">
-
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+    android:background="@color/fundo">
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="420dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toTopOf="parent">
+        <!--  Teste -->
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="5dp"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:title="Minha Aplicação"
+            android:backgroundTint="@color/fundo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="100dp"
+            android:text="Iarley Borges Fernandes"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="140dp"
+            android:src="@drawable/_951752_1" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="59dp"
+    android:layout_marginTop="15dp"
+    android:text="@string/CPF"
+    android:textSize="25sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="-33dp"
+            android:text="000.000.000-00"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="20dp"
+            android:text="21 anos Masculino"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="59dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/telefone"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="59dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Email"
+            android:textSize="25sp" />
 
         <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_marginTop="100dp">
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="@dimen/padding_medium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
-            <TableLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:stretchColumns="1">
+            <LinearLayout
+                android:layout_width="391dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-60dp"
+                android:layout_marginEnd="39dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
-                <TableRow>
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="60dp"
+                    android:src="@drawable/quadrado" />
 
-                    <CheckBox
-                        android:layout_width="67dp"
-                        android:layout_height="35dp"
-                        android:checked="true"></CheckBox>
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="-10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="60dp"
+                    android:src="@drawable/quadrado" />
 
-                    <CheckBox
-                        android:layout_width="122dp"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="-425dp"
+                    android:layout_marginTop="100dp"
+                    android:text="Agenda"
+                    android:textSize="20sp" />
 
-                    <CheckBox
-                        android:layout_width="129dp"
-                        android:layout_height="50dp"
-                        android:checked="false">
-
-                    </CheckBox>
-
-                    <CheckBox
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-                </TableRow>
-
-                <TableRow>
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-
-                    <CheckBox
-                        android:layout_width="146dp"
-                        android:layout_height="36dp"
-                        android:checked="false"></CheckBox>
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-                </TableRow>
-
-                <TableRow>
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-                </TableRow>
-
-                <TableRow>
-
-                    <CheckBox
-                        android:layout_width="74dp"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:checked="false"></CheckBox>
-
-                </TableRow>
-            </TableLayout>
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="78dp"
+                    android:layout_marginTop="100dp"
+                    android:text="Relatorios"
+                    android:textSize="20sp" />
+            </LinearLayout>
         </RelativeLayout>
-    </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/botao_home_ligado" />
+
+        <ImageView
+            android:id="@+id/consulta"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/calendario" />
+
+        <ImageView
+            android:id="@+id/cronograma"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/tempo" />
+
+        <ImageView
+            android:id="@+id/aval"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/estrela" />
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Menu lateral -->
+<com.google.android.material.navigation.NavigationView
+android:id="@+id/nav_view"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:layout_gravity="start"
+app:menu="@menu/drawer_menu" />
+    </androidx.drawerlayout.widget.DrawerLayout>

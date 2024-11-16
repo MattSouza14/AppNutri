@@ -7,16 +7,18 @@
     android:layout_height="match_parent"
     android:gravity="center"
     tools:context=".SplashScreen">
+    <!--  Teste -->
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/app_logo_description"
-        android:src="@drawable/perfil"
+        android:src="@drawable/logo_inicial"
+        android:background="@color/fundo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></ImageView>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

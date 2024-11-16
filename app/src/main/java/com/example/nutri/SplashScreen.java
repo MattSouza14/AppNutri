@@ -9,8 +9,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.appnutri.R;
-
 public class SplashScreen extends AppCompatActivity {
 private static final int Splash_TIME_OUT = 1000;
     @Override
@@ -19,10 +17,11 @@ private static final int Splash_TIME_OUT = 1000;
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_splash_screen);
 new Handler().postDelayed(() -> {
-    Intent intent = new Intent(SplashScreen.this,MainActivity.class);
+    Intent intent = new Intent(SplashScreen.this,user.class);
     startActivity(intent);
     finish();
 }, Splash_TIME_OUT);
+//teste
 
     }
 }
