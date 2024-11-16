@@ -7,4 +7,96 @@
     <string name="Texto_de_botao_cadastrar">Cadastrar</string>
     <string name="Texto_de_botao_esqueci_senha">Esqueci a Senha</string>
     <string name="Texto_de_logo1">Login</string>
-</resources>
+
+    <!--TELA 1 ESQUECI SENHA-->
+    <string name="texto_1">Esqueci minha senha</string>
+    <string name="para_sua_seguran">Para sua segurança enviaremos um código para validar sua redefinição.</string>
+    <string name ="sub_digitar_email">Digite seu email :</string>
+    <string name="button_email">Email</string>
+    <string name="button_solicitar">Solicitar Código</string>
+
+    <!--TELA 2 ESQUECI SENHA-->
+    <string name="title_text">Digite o código\n de redefinição</string>
+    <string name="hint_code">Código</string>
+    <string name="button_text">Redefinir</string>
+
+    <!--TELA 3 ESQUECI SENHA-->
+        <string name="title_password_recovery">Recuperação de senha</string>
+        <string name="hint_new_password">Digite a nova senha</string>
+        <string name="hint_confirm_password">Digite novamente</string>
+        <string name="btn_reset">Redefinir</string>
+
+    <!--TELA CRONOGRAMA-CLIENTE-->
+
+    <!-- Saudação e Títulos -->
+    <string name="saudacao">Bem-vindo\nJoao Silva(a)!</string>
+    <string name="texto_cronograma">Seu Cronograma</string>
+
+    <!-- Dias da Semana -->
+    <string name="dia_1">Segunda</string>
+    <string name="dia_2">Terça</string>
+    <string name="dia_3">Quarta</string>
+    <string name="dia_4">Quinta</string>
+    <string name="dia_5">Sexta</string>
+    <string name="dia_6">Sábado</string>
+    <string name="dia_7">Domingo</string>
+
+    <!-- Botões principais -->
+    <string name="alimentacao">Alimentação\n <small>5:00 - 8:00</small></string>
+    <string name="atividade_fisica">Atividade física\n <small>8:30 - 10:00</small></string>
+    <string name="hidratacao">Hidratação\n <small>10:00 - 10:10</small></string>
+    <string name="intestino">Intestino\n <small>10:10 - 12:00</small></string>
+    <string name="descanso">Descanso\n <small>12:00 - 15:00</small></string>
+
+    <!--CRONOGRAMA-MONITORAMENTO-ALIMENTAÇÃO-->
+
+
+        <!-- Títulos e descrições -->
+        <string name="titulo_monitoramento">Automonitoramento de Rotina</string>
+        <string name="descricao_botao_voltar">Botão de voltar</string>
+
+        <!-- Subtítulos -->
+        <string name="subtitulo_plano">Plano Alimentar</string>
+        <string name="instrucoes">
+        Marque com ✓ as refeições que você seguiu o plano, com ✖ as refeições livres e com ❌ as refeições que pulou.
+    </string>
+
+        <!-- Refeições -->
+        <string name="refeicao_cafe_manha">Café da Manhã</string>
+        <string name="refeicao_colacao">Colação</string>
+        <string name="refeicao_almoco">Almoço</string>
+        <string name="refeicao_lanche">Lanche</string>
+        <string name="refeicao_jantar">Jantar</string>
+        <string name="refeicao_ceia">Ceia</string>
+        <string name="refeicao_livre">Refeição Livre</string>
+
+        <!-- Dias da semana -->
+        <string name="dia_domingo">Dom</string>
+        <string name="dia_segunda">Seg</string>
+        <string name="dia_terca">Ter</string>
+        <string name="dia_quarta">Qua</string>
+        <string name="dia_quinta">Qui</string>
+        <string name="dia_sexta">Sex</string>
+        <string name="dia_sabado">Sáb</string>
+
+     <!--MONITORAMENTO_HIDRATACAO-->
+
+    <string name="automonitoramento_hidratacao">Automonitoramento de Hidratação</string>
+    <string name="descricao_hidratacao">Marque com ✓ se atingiu a meta de ingestão de água.</string>
+    <string name="domingo">Dom</string>
+    <string name="segunda">Seg</string>
+    <string name="terca">Ter</string>
+    <string name="quarta">Qua</string>
+    <string name="quinta">Qui</string>
+    <string name="sexta">Sex</string>
+    <string name="sabado">Sáb</string>
+    <string name="manha">Manhã</string>
+    <string name="meta_atingida">Meta atingida</string>
+    <string name="meta_nao_atingida">Meta não atingida</string>
+    </resources>
+
+
+
+
+
+

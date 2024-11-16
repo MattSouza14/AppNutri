@@ -53,7 +53,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.012"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/senha" />
+            app:layout_constraintTop_toBottomOf="@+id/senha"
+            tools:ignore="OnClick" />
 
         <Button
             android:id="@+id/button2"
@@ -62,12 +63,14 @@
             android:layout_marginBottom="148dp"
             android:width="2dp"
             android:backgroundTint="#FBFBFB"
+            android:onClick="esqueci_senha"
             android:text="@string/Texto_de_botao_esqueci_senha"
             android:textColor="#050505"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="OnClick" />
 
         <Button
             android:id="@+id/button3"
@@ -83,7 +86,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.932"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/senha" />
+            app:layout_constraintTop_toBottomOf="@+id/senha"
+            tools:ignore="OnClick" />
 
         <TextView
             android:id="@+id/textView2"

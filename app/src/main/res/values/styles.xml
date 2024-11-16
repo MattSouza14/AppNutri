@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <!-- Estilo para botões de dias não selecionados -->
+        <style name="DayButtonStyle">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:backgroundTint">#FFFFFF</item>
+            <item name="android:textColor">#000000</item>
+            <item name="android:padding">8dp</item>
+            <item name="android:layout_marginEnd">8dp</item>
+            <item name="android:textSize">12sp</item>
+        </style>
+
+        <!-- Estilo para o botão de dia selecionado -->
+        <style name="DayButtonStyleSelected">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:backgroundTint">#4CAF50</item>
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:padding">8dp</item>
+            <item name="android:layout_marginEnd">8dp</item>
+            <item name="android:textSize">12sp</item>
+        </style>
+
+    <!--TELA EVENTOS-CRONOGRAMAS-->
+
+    <!-- Estilo para os nomes das refeições -->
+    <style name="MealStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#4D96FF</item>
+    </style>
+
+    <!-- Estilo para o cabeçalho dos dias da semana -->
+    <style name="DayHeaderStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!-- Estilo para as células da tabela -->
+    <style name="CellStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+</resources>

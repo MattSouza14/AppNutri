@@ -6,11 +6,15 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.appnutri.R;
 
 public class MainActivity extends AppCompatActivity {
     EditText txtUser;
@@ -47,4 +51,11 @@ public class MainActivity extends AppCompatActivity {
         Intent troca_tela = new Intent(this,cadastro.class);
         startActivity(troca_tela);
     }
+
+    public void esqueci_senha(View view) {
+        Intent troca_esqueci = new Intent(this, esqueci_senha.class);
+        startActivity(troca_esqueci);
+        finish();
+    }
+
 }

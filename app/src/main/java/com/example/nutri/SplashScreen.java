@@ -9,6 +9,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.appnutri.R;
+
 public class SplashScreen extends AppCompatActivity {
 private static final int Splash_TIME_OUT = 1000;
     @Override
