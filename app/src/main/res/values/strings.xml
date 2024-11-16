@@ -50,50 +50,53 @@
 
     <!--CRONOGRAMA-MONITORAMENTO-ALIMENTAÇÃO-->
 
+    <string name="automonitoramento_titulo">Automonitoramento de Rotina</string>
+    <string name="plano_alimentar">PLANO ALIMENTAR</string>
+    <string name="instrucoes">Marque com ✅ as refeições que você seguiu o plano, com ❌ as refeições livres e com ✖ as refeições que pulou.</string>
+    <string name="refeicoes">Refeições</string>
+    <string name="domingo">DOM</string>
+    <string name="segunda">SEG</string>
+    <string name="terca">TER</string>
+    <string name="quarta">QUA</string>
+    <string name="quinta">QUI</string>
+    <string name="sexta">SEX</string>
+    <string name="sabado">SAB</string>
+    <string name="cafe_da_manha">Café da Manhã</string>
+    <string name="colacao">Colação</string>
+    <string name="almoco">Almoço</string>
+    <string name="lanche">Lanche</string>
+    <string name="jantar">Jantar</string>
+    <string name="ceia">Ceia</string>
+    <string name="refeicao_livre">Refeição Livre</string>
+    <string name="voltar">Voltar</string>
+    <string name="seta_voltar">Seta para voltar</string>
 
-        <!-- Títulos e descrições -->
-        <string name="titulo_monitoramento">Automonitoramento de Rotina</string>
-        <string name="descricao_botao_voltar">Botão de voltar</string>
 
-        <!-- Subtítulos -->
-        <string name="subtitulo_plano">Plano Alimentar</string>
-        <string name="instrucoes">
-        Marque com ✓ as refeições que você seguiu o plano, com ✖ as refeições livres e com ❌ as refeições que pulou.
-    </string>
+    <!--RELATORIO-->
+    <string name="descricao_botao_voltar">Botão para voltar à tela anterior</string>
+    <string name="titulo_relatorio_semanal">RELATÓRIO SEMANAL</string>
+    <string name="descricao_titulo_relatorio">Título da tela do relatório semanal</string>
+    <string name="pergunta_1">De 0 a 10, qual a nota que você dá para sua adesão à dieta?</string>
+    <string name="hint_pergunta_1">Digite a nota.</string>
+    <string name="pergunta_2">Quantos dias você treinou nesta semana?</string>
+    <string name="hint_pergunta_2">Digite a nota.</string>
+    <string name="pergunta_3">Você realizou exercícios aeróbicos/cardio?</string>
+    <string name="hint_pergunta_3">Digite a nota.</string>
+    <string name="pergunta_4">Conseguiu concluir todos os treinos?</string>
+    <string name="hint_pergunta_4">Digite a nota.</string>
+    <string name="pergunta_5">Qual foi sua maior dificuldade nesta semana?</string>
+    <string name="hint_pergunta_5">Digite a nota.</string>
 
-        <!-- Refeições -->
-        <string name="refeicao_cafe_manha">Café da Manhã</string>
-        <string name="refeicao_colacao">Colação</string>
-        <string name="refeicao_almoco">Almoço</string>
-        <string name="refeicao_lanche">Lanche</string>
-        <string name="refeicao_jantar">Jantar</string>
-        <string name="refeicao_ceia">Ceia</string>
-        <string name="refeicao_livre">Refeição Livre</string>
 
-        <!-- Dias da semana -->
-        <string name="dia_domingo">Dom</string>
-        <string name="dia_segunda">Seg</string>
-        <string name="dia_terca">Ter</string>
-        <string name="dia_quarta">Qua</string>
-        <string name="dia_quinta">Qui</string>
-        <string name="dia_sexta">Sex</string>
-        <string name="dia_sabado">Sáb</string>
 
-     <!--MONITORAMENTO_HIDRATACAO-->
 
-    <string name="automonitoramento_hidratacao">Automonitoramento de Hidratação</string>
-    <string name="descricao_hidratacao">Marque com ✓ se atingiu a meta de ingestão de água.</string>
-    <string name="domingo">Dom</string>
-    <string name="segunda">Seg</string>
-    <string name="terca">Ter</string>
-    <string name="quarta">Qua</string>
-    <string name="quinta">Qui</string>
-    <string name="sexta">Sex</string>
-    <string name="sabado">Sáb</string>
-    <string name="manha">Manhã</string>
-    <string name="meta_atingida">Meta atingida</string>
-    <string name="meta_nao_atingida">Meta não atingida</string>
-    </resources>
+    <!--MONITORAMENTO_HIDRATACAO-->
+
+
+</resources>
+
+
+
 
 
 
