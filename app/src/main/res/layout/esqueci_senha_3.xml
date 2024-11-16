@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80C1E3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="80dp"
+            android:paddingBottom="120dp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonRedefinir"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:text="@string/title_password_recovery"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/editTextNewPassword"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_rounded"
+                android:gravity="center"
+                android:hint="@string/hint_new_password"
+                android:inputType="textPassword"
+                android:textColorHint="#070707"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextConfirmPassword"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/border_rounded"
+                android:gravity="center"
+                android:hint="@string/hint_confirm_password"
+                android:inputType="textPassword"
+                android:textColorHint="#070707"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonRedefinir"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="#3C4A53"
+        android:onClick="onRedefinirClick"
+        android:text="@string/btn_reset"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
