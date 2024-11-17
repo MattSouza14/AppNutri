@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Nutri"
         tools:targetApi="31">
         <activity
+            android:name=".Apresentacao"
+            android:exported="false" />
+        <activity
+            android:name=".apresentacao"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,11 +26,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- Declaração da Activity esqueci_senha -->
+        </activity> <!-- Declaração da Activity esqueci_senha -->
         <activity
             android:name=".esqueci_senha"
+            android:exported="true" />
+        <activity
+            android:name=".landingPage"
             android:exported="true" />
     </application>
 

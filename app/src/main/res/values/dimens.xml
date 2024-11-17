@@ -5,4 +5,5 @@
 
     <!-- dimens.xml para telas grandes -->
     <dimen name="texto_padrao">32dp</dimen>
+    <dimen name="padding_medium">padding_medium</dimen>
 </resources>

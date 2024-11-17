@@ -11,7 +11,7 @@
     <!--TELA 1 ESQUECI SENHA-->
     <string name="texto_1">Esqueci minha senha</string>
     <string name="para_sua_seguran">Para sua segurança enviaremos um código para validar sua redefinição.</string>
-    <string name ="sub_digitar_email">Digite seu email :</string>
+    <string name="sub_digitar_email">Digite seu email :</string>
     <string name="button_email">Email</string>
     <string name="button_solicitar">Solicitar Código</string>
 
@@ -21,10 +21,10 @@
     <string name="button_text">Redefinir</string>
 
     <!--TELA 3 ESQUECI SENHA-->
-        <string name="title_password_recovery">Recuperação de senha</string>
-        <string name="hint_new_password">Digite a nova senha</string>
-        <string name="hint_confirm_password">Digite novamente</string>
-        <string name="btn_reset">Redefinir</string>
+    <string name="title_password_recovery">Recuperação de senha</string>
+    <string name="hint_new_password">Digite a nova senha</string>
+    <string name="hint_confirm_password">Digite novamente</string>
+    <string name="btn_reset">Redefinir</string>
 
     <!--TELA CRONOGRAMA-CLIENTE-->
 
@@ -86,8 +86,7 @@
     <string name="hint_pergunta_4">Digite a nota.</string>
     <string name="pergunta_5">Qual foi sua maior dificuldade nesta semana?</string>
     <string name="hint_pergunta_5">Digite a nota.</string>
-
-
+    <string name="Botão_cadastrar">Cadastrar</string>
 
 
     <!--MONITORAMENTO_HIDRATACAO-->
