@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/usuario"
+        android:title="@string/editar_perfil" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/documento"
+        android:title="@string/recibos" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/sino"
+        android:title="@string/notificacoes" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:icon="@drawable/trancar"
+        android:title="@string/mudar_senha" />
+    <item android:title="" />
+    <item android:title="" />
+    <item android:title="" />
+    <item android:title="" />
+    <item android:title="" />
+    <item android:title="" />
+    <item android:title="" />
+    <item android:title="" />
+    <item android:title="" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/simbolo_de_logout"
+        android:title="@string/logout" />
+</menu>
