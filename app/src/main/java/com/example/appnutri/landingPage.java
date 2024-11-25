@@ -1,4 +1,4 @@
-package com.example.nutri;
+package com.example.appnutri;
 
 import android.os.Bundle;
 import android.view.MenuItem;

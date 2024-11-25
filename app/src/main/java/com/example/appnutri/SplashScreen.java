@@ -1,13 +1,10 @@
-package com.example.nutri;
+package com.example.appnutri;
 import android.os.Handler;
 import android.os.Bundle;
 import android.content.Intent;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class SplashScreen extends AppCompatActivity {
 private static final int Splash_TIME_OUT = 1000;

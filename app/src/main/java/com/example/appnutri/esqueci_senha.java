@@ -1,10 +1,8 @@
-package com.example.nutri;
+package com.example.appnutri;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.appnutri.R;
 
 public class esqueci_senha extends AppCompatActivity {
     @Override
