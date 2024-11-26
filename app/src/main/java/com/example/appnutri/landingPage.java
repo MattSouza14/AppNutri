@@ -1,5 +1,6 @@
 package com.example.appnutri;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.ImageView;
@@ -118,12 +119,21 @@ public class landingPage extends AppCompatActivity {
                 break;
             case 2:
                 consulta.setImageResource(R.drawable.calendario);
+                Intent telaCalendario = new Intent(this, eventos_alimentacao.class);
+                startActivity(telaCalendario);
+                finish();
                 break;
             case 3:
                 cronograma.setImageResource(R.drawable.tempo);
+                Intent telaTempo = new Intent(this, layout_cronograma.class);
+                startActivity(telaTempo);
+                finish();
                 break;
             case 4:
                 aval.setImageResource(R.drawable.estrela);
+                Intent telaAvaliacao = new Intent(this, activ_tela_avaliacao.class);
+                startActivity(telaAvaliacao);
+                finish();
                 break;
         }
     }

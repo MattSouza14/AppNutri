@@ -15,11 +15,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".landingPage"
                   android:exported="true"/>
@@ -28,6 +24,42 @@
         <activity
             android:name=".esqueci_senha"
             android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".user"
+            android:exported="true"/>
+        <activity
+            android:name=".Apresentacao"
+            android:exported="true"/>
+        <activity
+            android:name=".apresentacao_admin"
+            android:exported="true"/>
+        <activity
+            android:name=".cadastro"
+            android:exported="true"/>
+        <activity
+            android:name=".activ_tela_avaliacao"
+            android:exported="true"/>
+        <activity
+            android:name=".eventos_alimentacao"
+            android:exported="true"/>
+        <activity
+            android:name=".layout_cronograma"
+            android:exported="true"/>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"/>
+        <activity
+            android:name=".cadastro_admin"
+            android:exported="true"/>
     </application>
 
 </manifest>
