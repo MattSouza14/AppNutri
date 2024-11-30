@@ -1,5 +1,6 @@
 package com.example.appnutri;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
@@ -42,7 +43,7 @@ public class cadastro extends AppCompatActivity {
         telefoneUsuario = findViewById(R.id.telefone);
         emailUsuario = findViewById(R.id.email);
         senhaUsuario = findViewById(R.id.senha2);
-        dataNascimento = findViewById(R.id.data);
+       // dataNascimento = findViewById(R.id.data);
 
 
         retrofit = new Retrofit.Builder()
@@ -63,10 +64,9 @@ public class cadastro extends AppCompatActivity {
             if (!nome.isEmpty() && !email.isEmpty() && !senha.isEmpty() && !cpf.isEmpty() && !telefone.isEmpty() ) {
                 try {
                     User user = new User(nome, email, senha, cpf, telefone);
-                    cadastrarUsuario(user); // Chama o método para realizar o cadastro
+                    cadastrarUsuario(user);
                 } catch (ParseException e) {
-                    // Exibe uma mensagem de erro caso a conversão da data falhe
-                    Toast.makeText(this, "Formato de data inválido. Use yyyy-MM-dd.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Formato de data inválido. Use dd-MM-yyyy.", Toast.LENGTH_SHORT).show();
                 }
             } else {
                 Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_SHORT).show();
@@ -81,13 +81,14 @@ public class cadastro extends AppCompatActivity {
             public void onResponse(Call<Void> call, Response<Void> response) {
                 if (response.isSuccessful()) {
                     Toast.makeText(cadastro.this, "Usuário cadastrado com sucesso!", Toast.LENGTH_SHORT).show();
+
                 } else {
                     // Log para entender o problema
                     int statusCode = response.code();
                     String errorBody = "";
                     try {
                         if (response.errorBody() != null) {
-                            errorBody = response.errorBody().string(); // Obtém o corpo do erro como String
+                            errorBody = response.errorBody().string();
                         }
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -98,6 +99,7 @@ public class cadastro extends AppCompatActivity {
 
                     Toast.makeText(cadastro.this, "Erro ao cadastrar usuário. Código: " + statusCode, Toast.LENGTH_SHORT).show();
                 }
+
             }
 
             @Override

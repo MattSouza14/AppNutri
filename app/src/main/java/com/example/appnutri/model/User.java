@@ -6,8 +6,6 @@ import androidx.annotation.RequiresApi;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class User {
@@ -20,7 +18,7 @@ public class User {
     private String telefone;
    // private Date dataNascimento;
 
-    DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+   // DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     public User(String nome, String email, String senha,
                 String cpf, String telefone) throws ParseException {
         this.nome = nome;
@@ -88,4 +86,6 @@ public class User {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
+
+
 }
